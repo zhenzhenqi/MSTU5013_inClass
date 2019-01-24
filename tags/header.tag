@@ -1,13 +1,14 @@
 <header>
-  console.log("inside header");
-  <div>Hello World</div>
-
+  <div>{title}</div>
+  <!-- comment -->
 
   <style>
   </style>
 
   <script>
+      console.log(this);
       this.title = "Hello World!";
+      <!-- comment -->
   </script>
 
 </header>
