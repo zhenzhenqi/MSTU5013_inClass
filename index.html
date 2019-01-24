@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>my meme library</title>
+</head>
+
+<body>
+	<!-- 1. mounting point -->
+  <!-- <header></header> -->
+
+	<!-- 2.link internal tag file from project folder -->
+	<script src="./tag/header.tag"></script>
+
+<!-- 3. link external riot+complier library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.13.2/riot+compiler.js"></script>
+
+	<script>
+	// 4. intializing mounting proces
+		riot.mount("*");
+	</script>
+
+</body>
+
+</html>
